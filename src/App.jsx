@@ -10,7 +10,7 @@ import Carts from "./pages/Carts";
 import SingleProduct from "./pages/SingleProduct";
 import Header from "./componet/Header";
 import Auth from "./pages/Auth";
-import SignIn from "./pages/Auth/Signin";
+import SignIn from "./pages/Auth/SignIn";
 import SignUp from "./pages/Auth/Signup";
 import ForgotPassword from "./pages/Auth/Forgotpassword";
 
