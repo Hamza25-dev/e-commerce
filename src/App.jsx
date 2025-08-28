@@ -11,7 +11,7 @@ import SingleProduct from "./pages/SingleProduct";
 import Header from "./componet/Header";
 import Auth from "./pages/Auth";
 import SignIn from "./pages/Auth/SignIn";
-import SignUp from "./pages/Auth/Signup";
+import SignUp from "./pages/Auth/SignUp";
 import ForgotPassword from "./pages/Auth/Forgotpassword";
 
 function App() {
