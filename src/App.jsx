@@ -13,11 +13,14 @@ import Auth from "./pages/Auth";
 import SignIn from "./pages/Auth/SignIn";
 import SignUp from "./pages/Auth/SignUp";
 import ForgotPassword from "./pages/Auth/Forgotpassword";
+import ScrollToTop from "./componet/ScrollToTop";
+import BackToTop from "./componet/BackToTop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
@@ -31,6 +34,7 @@ function App() {
             <Route path="forgot-password" element={<ForgotPassword />} />
           </Route>
         </Routes>
+        <BackToTop />
       </BrowserRouter>
     </>
   );
